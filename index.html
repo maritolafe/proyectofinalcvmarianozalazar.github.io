@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head> <!-- head encabezado de la pagina todo lo que no esta estructurado
+  -->
+	<meta charset="utf-8">
+	<title>mariano zalazar</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	
+	  <meta charset="utf-8" name="viewport" content= "width=device-width, initial-scale=1.0">
+	
+</head>
+<body>
+<header>
+
+   <!-- encabezado de pagina menu y nombre
+  -->
+	<h5>mariano emanuel ZALAZAR</h5>
+	<nav><a href="#sesion"  onclick="mostrar();">menu</a>
+    <!--lista de menu
+  -->
+	<ul style="display: none;" id="lista">
+  <li><a href="#primera" class="elemento" onclick="cartel();">presentación</a></li>
+  <li><a href="#cursos" class="elemento"onclick="cartel();">historia académica</a></li>
+  <li><a href="#cuadro" class="elemento"onclick="cartel();">programación</a></li>
+  <li><a href="#cuarta"class="elemento"onclick="cartel();">hobbis habilidades</a></li>
+  <li><a href="#quinta"class="elemento"onclick="cartel();">contactos</a></li>
+</ul> </nav></header>
+<section id="primera"><!--
+
+      primera parte de la secciones
+  -->
+<div class="container text-center" id="caja1">
+  <div class="row align-items-center" id="presentar">
+    <div class="col-4" id="col1">
+     <img id="img" src="perfil.png" alt="foto de perfil">
+    </div> 
+    <div class="col-8" id="col2">
+    <h1>Hola, soy yo</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <!--
+	-->
+    </div>
+    
+  </div>
+</div ></section><!--
+
+      segunda parte de la secciones
+ conlas tablas de programacion  -->
+<section id="segunda">
+<div id="academica">
+	
+	<table id="carrera" class="tabla" >
+		<tr>
+			<th colspan="3" ><h5 >carrera académica</h5></th>
+		</tr>
+  <tr>
+    <th>carreras</th>
+    <th>establecimiento</th>
+    <th>estado</th>
+  </tr>
+  <tr>
+    <td>ingenieria mecatronica</td>
+    <td>universidad nacional de lomas de zamora</td>
+    <td class="proceso">en proceso</td>
+  </tr>
+  <tr>
+    <td>tramo pedadogico docente</td>
+    <td>universidad nacional de lomas de zamora</td>
+    <td class="proceso">terminado</td>
+  </tr>
+  <tr>
+    <td>tecnico automotor</td>
+    <td>E.E.T N°2 "Maria Eva DUARTE"</td>
+    <td class="proceso">terminado</td>
+  </tr>
+</table><br><br>
+
+<table id="cursos" class="tabla" >
+
+	<tr>
+			<th colspan="3"><h5>cursos</h5></th>
+		</tr>
+  <tr>
+    <th>cursos</th>
+    <th>establecimiento</th>
+    <th>estado</th>
+  </tr>
+  <tr>
+    <td>diplomatura web-diveloper</td>
+    <td>universidad tecnogica nacional- resitencia</td>
+    <td class="proceso">concluido</td>
+  </tr>
+  <tr>
+    <td>programacion javascript</td>
+    <td>universidad nacional de lomas de zamora</td>
+    <td class="proceso">terminado</td>
+  </tr>
+   <tr>
+    <td>programacion IA-GOBERNANZA DE DATOS</td>
+    <td>plataforma de wed educativa- ialab</td>
+    <td class="proceso">terminado</td>
+  </tr>
+  <tr>
+    <td>programacion cobol </td>
+    <td>plataforma de wed educativa- itoo</td>
+    <td class="proceso">terminado</td>
+  </tr>
+  <tr>
+    <td>Dibujante proyectista-autocad. </td>
+    <td>universidad nacional de lomas de zamora</td>
+    <td class="proceso">terminado</td>
+  </tr>
+</table>
+</div>
+</section >
+<section id="tercera">
+  <!--
+
+    3ra parte de la secciones
+ proyectos con caroussel  -->
+<div id=medio>
+	<div id="cuadro"><h5 class="algo">portafolio de proyectos</h5>
+   
+
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+<!--
+
+      cuadro con boton
+  -->
+
+
+      <div class="card" style="width: 18rem;">
+  <img src="abejas.jpg" class="card-img-top" alt="pagina web">
+  <div class="card-body">
+    <h5 class="card-title"> la colmena 3d</h5>
+    <p class="card-text">primer proyecto web, la cual esta diseñada para impresores 3d </p>
+    <a href="#" class="btn btn-primary">ir a pagina</a>
+     </div>
+     </div>
+ 
+
+
+
+
+
+
+
+     
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+
+
+<!--
+
+      cuadro con boton
+  -->
+
+       <div class="card" style="width: 18rem;">
+  <img src="electronica.jpg" class="card-img-top" alt="pagina web">
+  <div class="card-body">
+    <h5 class="card-title">el polo mecatronico</h5>
+    <p class="card-text">pagina e-commer para la venta de producto .</p>
+    <a href="#" class="btn btn-primary">ir a pagina</a>
+  </div>
+</div>
+
+
+
+
+
+
+      
+    </div>
+    <div class="carousel-item">
+
+<!--
+
+      cuadro con boton
+  -->
+
+
+       <div class="card" style="width: 18rem;">
+  <img src="educar.jpg" class="card-img-top" alt="pagina web">
+  <div class="card-body">
+    <h5 class="card-title">espacio educa web</h5>
+    <p class="card-text">espacio de educacion web dedicado a la enseñansa del municipio de esteban echeverria</p>
+    <a href="#" class="btn btn-primary">ir a pagina</a></div>
+  </div>
+</div>
+
+
+
+
+      
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+	
+
+ 
+
+   
+
+
+ 
+
+
+</div>
+
+</div>
+
+
+
+
+</section>
+<section id="cuarta">
+  <!--
+
+      cuarta parte de la secciones programacion y hobbis
+  -->
+	<div id="programas"><h5 class="algo">programas, libreria y bases de datos</h5>
+
+		<img src="c.png" alt="foto logo de c"id="c" class="logo"onmouseover="logo();">
+		<img src="javascript.png" alt="foto logo de javascrit"id="javascript" class="logo">
+		<img src="html.png" alt="foto logo de html5"id="html" class="logo">
+		<img src="css.png" alt="foto logo de css"id="css" class="logo">
+		<img src="php2.png" alt="foto logo de php"id="php" class="logo">
+		
+		<img src="cobol.png" alt="foto logo de cobol"id="cobol" class="logo">
+		
+		
+		
+		<img src="jquery.png" alt="foto logo de jquery"id="jquery" class="logo" onmouseover="logo();">
+		<img src="angular.png" alt="foto logo de angular"id="angular" class="logo">
+		<img src="react.png" alt="foto logo de react"id="react" class="logo">
+		<img src="bootsprap.png" alt="foto logo de bootstrap"id="bootstrap" class="logo">
+		<img src="workpress.png" alt="foto logo de workpress"id="workpress" class="logo">
+		<img src="sql.png" alt="foto logo de sql"id="sql" class="logo">
+		<img src="bd2.png" alt="foto logo de bd2"id="bd2" class="logo">
+
+</div>
+<div id="jobbis">
+	<div id="caja3"><h5 class="algo"> habiladades y hobbis.</h5>
+
+	<div id="soldador" class="cajas">soldador<br>
+    <img src="soldadura.jpg" alt="foto soldar"id="soldador1" class="imagen"></div>
+	<div id="mecanica" class="cajas">mecanica de herramientas industriales<br>
+    <img src="maquina.jpg" alt="foto herramientas"id="herramientas" class="imagen">
+  </div>
+    <div id="3d" class="cajas">armado de impresoras 3d
+      <img src="impresora3d.jpg" alt="foto impresora"id="impresora3" class="imagen">
+    </div>
+   
+</div>
+</div>
+</section><section id="quinta">
+  <!--
+
+      quinta parte de la secciones
+ contactos mios  -->
+<footer><h5>contactos</h5>
+<ul id="contacto">
+  <li>email:XXXXXXXX@XXXXX.XXX</li>
+  <li>tel/cel: XX-XXXX-XXX</li>
+  <li>github: @XXXXXXX</li>
+
+</ul></footer></section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script type="text/javascript" src="cajas.js"></script>
+</html>
